@@ -1,0 +1,163 @@
+.pad-top-5 {padding-top:5px;}
+.pad-top-10 {padding-top:10px;}
+.pad-top-20 {padding-top:20px;}
+.pad-top-30 {padding-top:30px;}
+.pad-top-40 {padding-top:40px;}
+.pad-top-50 {padding-top:50px;}
+.pad-top-60 {padding-top:60px;}
+.pad-top-70 {padding-top:70px;}
+.pad-top-80 {padding-top:80px;}
+.pad-top-90 {padding-top:90px;}
+.pad-top-100 {padding-top:100px;}
+.pad-bottom-10 {padding-bottom:10px;}
+.pad-bottom-20 {padding-bottom:20px;}
+.pad-bottom-30 {padding-bottom:30px;}
+.pad-bottom-40 {padding-bottom:40px;}
+.pad-bottom-50 {padding-bottom:50px;}
+.pad-bottom-60 {padding-bottom:60px;}
+.pad-bottom-70 {padding-bottom:70px;}
+.pad-bottom-80 {padding-bottom:80px;}
+.pad-bottom-90 {padding-bottom:90px;}
+.pad-bottom-100 {padding-bottom:100px;}
+
+.margin-top-5 {margin-top:5px;}
+.margin-top-10 {margin-top:10px;}
+.margin-top-20 {margin-top:20px;}
+.margin-top-30 {margin-top:30px;}
+.margin-top-40 {margin-top:40px;}
+.margin-top-50 {margin-top:50px;}
+.margin-bottom-5 {margin-bottom:5px;}
+.margin-bottom-10 {margin-bottom:10px;}
+.margin-bottom-20 {margin-bottom:20px;}
+.margin-bottom-30 {margin-bottom:30px;}
+.margin-bottom-40 {margin-bottom:40px;}
+.margin-bottom-50 {margin-bottom:50px;}
+
+.margin-left-5 {margin-left:5px;}
+.margin-left-10 {margin-left:10px;}
+.margin-left-15 {margin-left:15px;}
+.margin-right-5 {margin-right:5px;}
+.margin-right-10 {margin-right:10px;}
+.margin-right-15 {margin-right:15px;}
+
+.pad-left-5 {padding-left:5px;}
+.pad-left-10 {padding-left:10px;}
+.pad-left-15 {padding-left:15px;}
+.pad-right-5 {padding-right:5px;}
+.pad-right-10 {padding-right:10px;}
+.pad-right-15 {padding-right:15px;}
+
+div.modal-body h3 {
+	color:#003578!important;	
+}
+
+footer div.white, footer div.white p, footer div.white h3 {background-color:#fff;color:#000;}
+
+.navbar-nav .image-menu-item a {padding-left: 5px;padding-right: 5px;}
+.txt24 {font-size:26px;line-height:41px;}
+.navbar-nav .dropdown-search {min-width:200px;padding-bottom:0px;margin-bottom:0;}
+.navbar-nav .dropdown-search li {margin-bottom:0;padding-bottom:0;}
+.tag-line-feature .faint{color:#fff;font-weight:100;}
+.img-full-width {width:100%;}
+
+.topics {font-size:16px;color:#2f2f31}
+.forensic h2 {font-weight: 400;font-size: 20px;color: #003578;margin-top:5px;margin-bottom:10px;}
+.forensic h1 {margin-bottom:0;padding-bottom:0;}
+.author {font-size:14px;color:silver;margin: 0;}
+section ol li {padding-bottom:5px;}
+
+/*.parallax .bg {background-position:center!important;background-size:cover;}
+.light.tag-line-feature h2 {margin:5px 0!important;}*/
+.glyphicon-service {text-align:center;}
+.service .service-item-v2.dark .item-text span.glyphicon {font-size:28px!important;color:#003578!important;margin-top: -10px;}
+.service .service-item-v2.dark .item-text a.highlight span {color:#003578!important;}
+.relatedServiceItem {
+    border-top: 1px solid silver;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.button-effect.forensics span{
+	color:#fff;
+	 -webkit-transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  transform: translateY(0px);
+	padding:5px 0;
+}
+
+.button-effect.forensics span::before,
+.button-effect.forensics span::after {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: #8fbc27;
+  content: '';
+  opacity: 1;
+  
+}
+.button-effect.forensics span::before{top:-15px;}
+.button-effect.forensics span::after{bottom:-15px;}
+
+a.subtle {color: rgba(204, 204, 204, 0.44);font-size:12px;}
+a.subtle:hover {text-decoration:none;color: rgba(143, 188, 39, 0.6)}
+
+a#az {
+    display: block;
+    position: relative;
+    top: -120px;
+    visibility: hidden;
+}
+
+a.related-image {
+	max-height: 175px;
+    overflow: hidden;
+    display: block;	
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 55%;
+    padding-top: 6px;
+	height: 0;
+	margin-bottom:20px;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+#player, iframe {
+    background-color: transparent!important;
+}
+.player .video-wrapper{
+	background-color:transparent!important;
+}
+@media all and (max-width: 1199px) {
+	a.related-image {
+		max-height: 141px;
+	}
+}
+
+@media all and (max-width: 991px) {
+	a.related-image {
+		max-height: none;
+	}
+}
+
+@media all and (max-width: 900px) {
+	#tour {display:none;}
+	#tour-header {display:none;}
+}
+/*@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	#tour {display:none;}
+}*/
+
+
+@media  (max-width: 480px) {
+  h1 {
+    font-size: 39px;
+}
+  
+}
